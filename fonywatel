@@ -1,1 +1,12 @@
+<title>Mikołaj Ptak</title> <style> body { font-family: sans-serif; padding: 20px; background: #111; color: #eee; } img { max-width: 300px; border: 2px solid #fff; margin-bottom: 20px; } .info { margin: 10px 0; } </style>
+Mikołaj Ptak
+<script> const params = new URLSearchParams(window.location.search); const image = params.get('image') || 'obraz.jpeg'; const sex = params.get('sex'); const name = params.get('name'); const surname = params.get('surname'); const birthday = params.get('birthday'); const nationality = params.get('nationality'); const city = params.get('city'); const out = document.getElementById('output'); out.innerHTML = `
+Obraz
 
+Płeć: ${sex}
+Imię: ${Mikołaj}
+Nazwisko: ${Ptak}
+Data urodzenia: ${18 02 2008}
+Narodowość: ${Polska}
+Miasto: ${Kłodzko}
+`; </script>
